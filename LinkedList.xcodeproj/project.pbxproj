@@ -15,6 +15,7 @@
 		C1D627832083BEE3003CCE20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D627822083BEE3003CCE20 /* main.m */; };
 		C1D6278D2083BEE3003CCE20 /* LinkedListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D6278C2083BEE3003CCE20 /* LinkedListTests.m */; };
 		C1D627982083BEE3003CCE20 /* LinkedListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D627972083BEE3003CCE20 /* LinkedListUITests.m */; };
+		C1D627A72083BF0D003CCE20 /* LinkedListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D627A62083BF0D003CCE20 /* LinkedListNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C1D627932083BEE3003CCE20 /* LinkedListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D627972083BEE3003CCE20 /* LinkedListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListUITests.m; sourceTree = "<group>"; };
 		C1D627992083BEE3003CCE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D627A52083BF0D003CCE20 /* LinkedListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListNode.h; sourceTree = "<group>"; };
+		C1D627A62083BF0D003CCE20 /* LinkedListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C1D627742083BEE0003CCE20 /* AppDelegate.m */,
 				C1D627762083BEE0003CCE20 /* ViewController.h */,
 				C1D627772083BEE0003CCE20 /* ViewController.m */,
+				C1D627A52083BF0D003CCE20 /* LinkedListNode.h */,
+				C1D627A62083BF0D003CCE20 /* LinkedListNode.m */,
 				C1D627792083BEE0003CCE20 /* Main.storyboard */,
 				C1D6277C2083BEE3003CCE20 /* Assets.xcassets */,
 				C1D6277E2083BEE3003CCE20 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D627A72083BF0D003CCE20 /* LinkedListNode.m in Sources */,
 				C1D627782083BEE0003CCE20 /* ViewController.m in Sources */,
 				C1D627832083BEE3003CCE20 /* main.m in Sources */,
 				C1D627752083BEE0003CCE20 /* AppDelegate.m in Sources */,
